@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: blog
+name: blog
+propagationMethod: all
+siteSettings:
+  fd82a56c-a7be-4867-9883-1b9734398820: # new
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: 'blog/{slug}'
+type: channel

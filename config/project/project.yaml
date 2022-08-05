@@ -1,0 +1,44 @@
+dateModified: 1659708106
+email:
+  fromEmail: ekabue0@gmail.com
+  fromName: new
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  image:
+    hasUrls: true
+    name: image
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: /assets/images
+meta:
+  __names__:
+    1b1e14ec-db1b-4232-90e4-cc29ab20ff8e: Images
+    6f3264c4-4208-4a31-b2dc-89de826b5994: Default # Default
+    9a9d99ef-3c50-4aed-adc2-a273ec3a1c18: Home # Home
+    b569265b-5c05-44c7-8665-86a631199caa: new # new
+    dc122da5-1d32-475c-ae4b-dbb9d2f1e2e7: Common # Common
+    e1f3b4c0-f880-4109-9717-2a4be7cb2b13: Home # Home
+    e57fe10e-a49e-4330-9f90-5c1c4c4d39a8: blog # blog
+    fd82a56c-a7be-4867-9883-1b9734398820: new # new
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: new
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
