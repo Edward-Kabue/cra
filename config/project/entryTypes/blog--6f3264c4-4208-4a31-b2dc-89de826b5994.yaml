@@ -1,24 +1,6 @@
 fieldLayouts:
-  be0f12fa-824f-4d42-a2f7-5cd22876f723:
+  490629c8-1553-4c37-a7fb-6d88c833333c:
     tabs:
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: 5b38c854-547f-439a-8199-6e877bb9d441 # Post Content
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 86fcd6c9-737e-43a7-bff5-488eecaca642
-            userCondition: null
-            warning: null
-            width: 100
-        name: Common
-        uid: f47e04b8-83f9-4e38-87de-beba15b1e6bc
-        userCondition: null
       -
         elementCondition: null
         elements:
@@ -30,7 +12,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d4bd1e00-19fe-41a9-9a7b-36f290700874
+            uid: 4e321b40-ef61-4b34-83b5-18945fc3f6f6
             userCondition: null
             warning: null
             width: 100
@@ -42,18 +24,30 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e35a622e-a67b-4f7d-bf46-ee0a6e44e59f
+            uid: e82c8f33-7ea4-4ccf-b9b0-608b3a1d2103
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b38c854-547f-439a-8199-6e877bb9d441 # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddffe8c1-4d76-498e-a3af-1c52c7af8751
             userCondition: null
             warning: null
             width: 100
         name: Blog
-        uid: 3d1bb1d6-950e-425c-b1dc-aca942127bb4
+        uid: 58f81dfc-e877-48e7-8e1e-a29f57c7bffe
         userCondition: null
-handle: home
-hasTitleField: false
-name: Home
-section: 9a9d99ef-3c50-4aed-adc2-a273ec3a1c18 # Home
+handle: blog
+hasTitleField: true
+name: Blog
+section: e57fe10e-a49e-4330-9f90-5c1c4c4d39a8 # blog
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: Title
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

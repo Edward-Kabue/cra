@@ -4,7 +4,7 @@ handle: home
 name: Home
 propagationMethod: all
 siteSettings:
-  fd82a56c-a7be-4867-9883-1b9734398820: # new
+  fd82a56c-a7be-4867-9883-1b9734398820: # Cafric
     enabledByDefault: true
     hasUrls: true
     template: index.twig

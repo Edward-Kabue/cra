@@ -1,0 +1,19 @@
+columnSuffix: btpdmeyy
+contentColumnType: string(400)
+fieldGroup: ecfd8b77-f5ca-4618-aa51-793caae6fc89 # Blog
+handle: excerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 100
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

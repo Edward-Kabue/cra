@@ -1,4 +1,4 @@
-dateModified: 1659708106
+dateModified: 1659771476
 email:
   fromEmail: ekabue0@gmail.com
   fromName: new
@@ -13,14 +13,25 @@ fs:
     url: /assets/images
 meta:
   __names__:
-    1b1e14ec-db1b-4232-90e4-cc29ab20ff8e: Images
-    6f3264c4-4208-4a31-b2dc-89de826b5994: Default # Default
+    1b1e14ec-db1b-4232-90e4-cc29ab20ff8e: Images # Images
+    5b38c854-547f-439a-8199-6e877bb9d441: 'Post Content' # Post Content
+    6f3264c4-4208-4a31-b2dc-89de826b5994: Blog # Blog
     9a9d99ef-3c50-4aed-adc2-a273ec3a1c18: Home # Home
+    11db298d-619a-4c7d-a5d3-5ce25a244bda: Excerpt # Excerpt
+    49cddcdb-c040-4a1e-9187-ff13488b006f: 'Footer text' # Footer text
+    85ad523c-bf7d-40a5-af9c-c0f734537fdf: 'Site Settings' # Site Settings
+    85f767ea-b963-41cf-bece-1ba78cd56221: Text # Text
+    99fba622-84f5-49a6-9719-fdb6246e6093: Text # Text
     b569265b-5c05-44c7-8665-86a631199caa: new # new
+    bc516002-e39c-46ed-9189-6d131ee8ce07: Logo # Logo
+    bd79f829-30d4-4eb2-8823-57349922fbfb: Image # Image
+    c76fa55f-33eb-4163-9a88-7d4c3f673745: 'Site Settings' # Site Settings
     dc122da5-1d32-475c-ae4b-dbb9d2f1e2e7: Common # Common
     e1f3b4c0-f880-4109-9717-2a4be7cb2b13: Home # Home
     e57fe10e-a49e-4330-9f90-5c1c4c4d39a8: blog # blog
-    fd82a56c-a7be-4867-9883-1b9734398820: new # new
+    ecfd8b77-f5ca-4618-aa51-793caae6fc89: Blog # Blog
+    f78e5602-51c6-4a84-9dd2-59cdae801557: 'Feature Image' # Feature Image
+    fd82a56c-a7be-4867-9883-1b9734398820: Cafric # Cafric
 plugins:
   element-api:
     edition: standard
