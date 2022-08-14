@@ -7,18 +7,6 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 99fba622-84f5-49a6-9719-fdb6246e6093 # Text
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: be4cd103-6dac-449a-a045-7e68e1fa643f
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: bd79f829-30d4-4eb2-8823-57349922fbfb # Image
             instructions: null
             label: null
@@ -26,6 +14,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: add4d849-dfc6-44ba-a96a-853096b0e621
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 99fba622-84f5-49a6-9719-fdb6246e6093 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be4cd103-6dac-449a-a045-7e68e1fa643f
             userCondition: null
             warning: null
             width: 100
@@ -98,7 +98,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null

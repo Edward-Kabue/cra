@@ -11,12 +11,6 @@ function transformBodyContent(Entry $entry){
     $blocks = $entry->postContent->all();
     foreach ($blocks as $block) {
         switch ($block->type->handle) {
-            case 'text':
-                $bodyBlocks[] = [
-                    'type' => 'text',
-                    'text' => $block->text->getParsedContent(),
-                ];
-                break;
             case 'image':
                 $image = $block->image->one();
                 $bodyBlocks[] = [
@@ -24,6 +18,13 @@ function transformBodyContent(Entry $entry){
                     'image' => $image ? $image->getUrl() : null,
                 ];
                 break;
+            case 'text':
+                $bodyBlocks[] = [
+                    'type' => 'text',
+                    'text' => $block->text->getParsedContent(),
+                ];
+                break;
+            
         }
     }
     return $bodyBlocks;

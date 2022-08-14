@@ -20,9 +20,11 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "@plasmicapp/loader-react": "^1.0.162",
     "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "styled-components": "^5.3.5"
   }
 }

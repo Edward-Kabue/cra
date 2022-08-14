@@ -3,7 +3,7 @@ import axios from 'axios';
 import Layout from './Layout';
 import Page from './Page';
 
-const App = () => {
+function App() {
   const [page, setPage] = useState(null);
   const [site, setSite] = useState(null);
 
@@ -39,6 +39,6 @@ const App = () => {
       <Page page={page} />
     </Layout>
   );
-};
+}
 
 export default App;
