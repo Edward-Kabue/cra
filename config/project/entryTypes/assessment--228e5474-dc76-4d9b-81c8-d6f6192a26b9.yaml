@@ -1,0 +1,55 @@
+fieldLayouts:
+  72d86b35-6742-4c94-b6ef-f379c0a41126:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6a4d2757-edae-4a45-b0a9-e28dd6cd49c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b38c854-547f-439a-8199-6e877bb9d441 # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4fe0caa2-4303-4095-9b93-cc589fa2ed27
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d29a05dc-6557-4904-ae31-be976c6033d2
+        userCondition: null
+handle: assessment
+hasTitleField: true
+name: Assessment
+section: 8b0cedc1-7e32-4e59-809e-a4c58f106f1c # Self Assessments
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

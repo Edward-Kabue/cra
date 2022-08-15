@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b0fac013-260e-4bd1-90e3-2fb0fe5eaaef # assesments
+handle: questions
+instructions: null
+name: Questions
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_questions}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

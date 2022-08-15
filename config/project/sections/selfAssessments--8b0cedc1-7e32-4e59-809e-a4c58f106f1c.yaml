@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: selfAssessments
+name: 'Self Assessments'
+propagationMethod: all
+siteSettings:
+  fd82a56c-a7be-4867-9883-1b9734398820: # Cafric
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: 'self-assessments/{slug}'
+structure:
+  maxLevels: null
+  uid: c8e1dd35-ff50-46bc-befd-aef5783568e0
+type: structure

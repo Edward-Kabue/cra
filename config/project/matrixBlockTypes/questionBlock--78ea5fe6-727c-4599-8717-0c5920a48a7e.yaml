@@ -1,0 +1,117 @@
+field: 0074ed06-852f-4ab2-a677-856c52012046 # Questions
+fieldLayouts:
+  183666f7-f182-47d3-8864-c0e536108690:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1979b9ce-0a8f-43b7-82bc-f3282c3ace87 # Question
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 471edf31-1af6-4ba0-98bf-7e40278181f0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3604f9c8-91a3-4e9f-a3f4-040eb9b28ca1 # Answers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c87b9987-8374-42c1-81a9-d681996bc62a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a8da923e-2f02-4d06-bc91-7bbe698d4666
+        userCondition: null
+fields:
+  1979b9ce-0a8f-43b7-82bc-f3282c3ace87: # Question
+    columnSuffix: cyiracaa
+    contentColumnType: text
+    fieldGroup: null
+    handle: question
+    instructions: null
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3604f9c8-91a3-4e9f-a3f4-040eb9b28ca1: # Answers
+    columnSuffix: lwbsidxi
+    contentColumnType: text
+    fieldGroup: null
+    handle: answers
+    instructions: null
+    name: Answers
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Answer
+                -
+                  - handle
+                  - answer
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Weight
+                -
+                  - handle
+                  - weight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: questionBlock
+name: 'Question Block'
+sortOrder: 1

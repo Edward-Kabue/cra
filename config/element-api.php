@@ -30,6 +30,29 @@ function transformBodyContent(Entry $entry){
     return $bodyBlocks;
 }
 
+function transformQuestionContent(Entry $entry){
+    $questionBlocks = [];
+    $blocks = $entry->questions->all();
+    foreach ($blocks as $block) {
+        switch ($block->type->handle) {
+            case 'question':
+                $bodyBlocks[] = [
+                    'type' => 'text',
+                    'question' => $block->text->getParsedContent(),
+                ];
+                break;
+            case 'answers':
+                $bodyBlocks[] = [
+                    'type' => 'table',
+                    
+                ];
+                break;
+            
+        }
+    }
+    return $questionBlocks;
+}
+
 
 return [
     'endpoints' => [
@@ -61,6 +84,11 @@ return [
                         'title' => 'Blog',
                         'url' => UrlHelper::url("blog/"),
                         'jsonUrl' => UrlHelper::url("blog.json")
+                    ];
+                     $pageInfos[] = [
+                        'title' => 'Assessment',
+                        'url' => UrlHelper::url("Assessments/"),
+                        'jsonUrl' => UrlHelper::url("assesment.json")
                     ];
 
                     return [
@@ -141,6 +169,50 @@ return [
                 'one' => true,
                 'meta' => [
                     'type' => 'blogpost'
+                ],
+            ];
+        },
+          'assesment.json'  => function() {
+            return[
+               'elementType' => 'craft\elements\Entry',
+                'criteria' => [
+            'section' => 'selfAssessments',],
+                'transformer' => function(Entry $entry) {
+
+                    return [
+                        'title' => $entry->title,
+                        'date_published' => $entry->postDate->format(\DateTime::ATOM),
+                        'date_modified' => $entry->dateUpdated->format(\DateTime::ATOM),
+                        'content' => transformBodyContent($entry),
+                        
+                    ];
+                },
+                'one' => true,
+                'meta' => [
+                    'type' => 'selfassesments'
+                ],
+            ];
+        },
+        'assesment/<slug:{slug}>.json'  => function($slug) {
+            return[
+                'elementType' => 'craft\elements\Entry',
+                'criteria' => [
+                    'section' => 'selfAssessments',
+                    'slug' => $slug
+                ],
+                'transformer' => function(Entry $entry) {
+
+
+                    return [
+                        'title' => $entry->title,
+                        
+                        'content' => transformBodyContent($entry),
+                       
+                    ];
+                },
+                'one' => true,
+                'meta' => [
+                    'type' => 'assesments'
                 ],
             ];
         },
